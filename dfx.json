@@ -1,0 +1,39 @@
+{
+  "canisters": {
+    "spark_registry": {
+      "main": "src/spark_registry/main.mo",
+      "type": "motoko"
+    },
+    "credential_manager": {
+      "main": "src/credential_manager/main.mo",
+      "type": "motoko"
+    },
+    "frontend": {
+      "dependencies": [
+        "spark_registry",
+        "credential_manager"
+      ],
+      "frontend": {
+        "entrypoint": "src/frontend/src/index.html"
+      },
+      "source": [
+        "src/frontend/src/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.12.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "SPARK is a decentralized application running on the Internet Computer blockchain that provides agent naming registration and credential management services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/agent": "^2.4.1",
+    "@dfinity/auth-client": "^2.4.1",
+    "@dfinity/principal": "^2.4.1",
+    "@vitejs/plugin-react": "^4.4.1",
+    "express": "^5.1.0",
+    "feather-icons": "^4.29.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.5",
+    "vite": "^6.3.5"
+  }
+}
