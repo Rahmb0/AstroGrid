@@ -20,10 +20,6 @@ The application also includes a React + Tailwind CSS frontend for a user-friendl
 - Simple frontend interface for all operations
 - Support for potentially trillions of agents in the naming structure
 
-## Architecture
-
-![Architecture Diagram](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW1VzZXJdIC0tPnxJbnRlcmFjdHMgd2l0aHwgQihGcm9udGVuZClcbiAgICBCIC0tPnxDYWxscyB0b3wgQyhBc3Ryb0dyaWQgUmVnaXN0cnkpXG4gICAgQiAtLT58Q2FsbHMgdG98IEQoQ3JlZGVudGlhbCBNYW5hZ2VyKVxuICAgIEMgLS0+fFJlZmVyZW5jZXN8IEQoQ3JlZGVudGlhbCBNYW5hZ2VyKSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
-
 ### astrogrid_registry (Canister)
 
 - Manages the registration of agent names (@handles)
